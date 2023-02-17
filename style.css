@@ -1,1 +1,45 @@
- 
+body {
+    background-image: url("cssback3.png");
+    text-align: center;
+    color: whitesmoke;
+}
+h1 {
+    font-size: 46px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+input#showTime {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+div#searchResults {
+    visibility: hidden;
+}
+div#time {
+    visibility: hidden;
+}
